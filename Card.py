@@ -10,5 +10,7 @@ class Card:
         self._defense = None
         self._attack = None
 
+    def getCost(self):
+        return self._cost
     
 
