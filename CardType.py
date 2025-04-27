@@ -9,3 +9,4 @@ class CardType(Enum):
     SUPERVILLAIN = 6
     STARTER = 7
     WEAKNESS = 8
+    SUPERHERO = 9

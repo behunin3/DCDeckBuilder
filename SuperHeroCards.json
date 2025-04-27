@@ -1,0 +1,119 @@
+{
+    "cards": [
+        {
+            "name": "The Flash",
+            "description": "Draw three cards, and then discard a card. (This card starts the game on top of the Super Hero stack).",
+            "type": "SuperHero",
+            "cost": 8,
+            "power": 0,
+            "victory_points": 4,
+            "draw_cards": 3,
+            "discards": 1
+        },
+        {
+            "name": "Shazam!",
+            "description": "Gain the top two cards of the main deck, play them, and then destroy one of them. (Its effects remain.)\nFIRST APPEARANCE -- ATTACK: Each player puts a card with cost 5 or greater from his hand or discard pile on the bottom of the main deck. If you cannot, gain a Weakness.",
+            "type": "SuperHero",
+            "cost": 12,
+            "victory_points": 6,
+            "gain_cards": 2,
+            "gain_location": "main_deck",
+            "destroy_cards": 1,
+            "attack": ""
+        },
+        {
+            "name": "Green Lantern",
+            "description": "You may play up to three heroes with cost 6 or less from the destroyed pile, and the put them on the bottom of the main deck. If you choose not to, +3 Power.",
+            "type": "SuperHero",
+            "cost": 11,
+            "power": 3,
+            "victory_points": 6,
+            "attack": ""
+        },
+        {
+            "name": "Wonder Woman",
+            "description": "You may play up to three Villains with cost 6 or less from the destroyed pile, and then put them on the bottom of the main deck. If you choose not to, +3 Power.",
+            "type": "SuperHero",
+            "cost": 11,
+            "power": 3,
+            "victory_points": 6,
+            "attack": ""
+        },
+        {
+            "name": "Swamp Thing",
+            "description": "+2 Power for each Location in play.",
+            "type": "SuperHero",
+            "cost": 9,
+            "variable_power": true,
+            "victory_points": 5,
+            "attack": ""
+        },
+        {
+            "name": "Green Arrow",
+            "description": "When you play this card, leave it front of you for the rest of the game.",
+            "type": "SuperHero",
+            "cost": 9,
+            "variable_power": true,
+            "victory_points": 5,
+            "attack": "",
+            "ongoing": "Punch cards you play have an additional +1 Power."
+        },
+        {
+            "name": "Batman",
+            "description": "You may play up to three Equipment with cost 6 or less from the destroyed pile, and then put them on the bottom of the main deck. If you choose not to, +3 Power.",
+            "type": "SuperHero",
+            "cost": 11,
+            "power": 3,
+            "victory_points": 6,
+            "attack": ""
+        },
+        {
+            "name": "Constantine",
+            "description": "Reveal the top three cards of your deck. Draw one, destroy one, and put one on top of your deck. Gain VPs equal to the destroyed card's VP value.",
+            "type": "SuperHero",
+            "cost": 10,
+            "power": 0,
+            "victory_points": 5,
+            "attack": "",
+            "reveal_cards": 3,
+            "draw_cards": 1,
+            "destroy_cards": 1
+        },
+        {
+            "name": "Cyborg",
+            "description": "+2 Power for each Super Power and Equipment you play or have played this turn.",
+            "type": "SuperHero",
+            "cost": 10,
+            "variable_power": true,
+            "victory_points": 5,
+            "attack": ""
+        },
+        {
+            "name": "Martian Manhunter",
+            "description": "+2 Power for each Hero and Villain you play or have played this turn.",
+            "type": "SuperHero",
+            "cost": 12,
+            "variable_power": true,
+            "victory_points": 6,
+            "attack": ""
+        },
+        {
+            "name": "Aquaman",
+            "description": "You may put up to three cards from your discard pile on top of your deck. If you choose not to, +3 Power",
+            "type": "SuperHero",
+            "cost": 11,
+            "power": 3,
+            "victory_points": 6,
+            "attack": ""
+        },
+        {
+            "name": "Superman",
+            "description": "You may play up to three Super Powers from the destroyed pile, and then put them on the bottom of the main deck. If you choose not to, +4 Power.",
+            "type": "SuperHero",
+            "cost": 13,
+            "power": 4,
+            "victory_points": 6,
+            "attack": ""
+        }
+    ]
+}

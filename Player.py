@@ -4,7 +4,7 @@ class Player:
     def __init__(self, name, hero):
         self.name = name
         self.hand = []
-        self.deck = Deck()
+        self.drawDeck = Deck()
         self.discards = Deck()
         self.victory_points = 0
         self.locations = []
@@ -12,9 +12,9 @@ class Player:
         self.super_hero = hero
 
     def draw(self):
-        if len(self.deck) <= 0:
+        if len(self.drawDeck) <= 0:
             self.shuffle()
-        card: Card = self.deck.draw()
+        card: Card = self.drawDeck.draw()
         self.hand.append(card)
 
     def discard(self, card):
@@ -25,7 +25,7 @@ class Player:
         if card_location == "hand":
             self.hand.remove(card)
         elif card_location == "deck":
-            self.deck.remove(card)
+            self.drawDeck.remove(card)
         elif card_location == "discard":
             self.discards.remove(card)
         else:
@@ -33,16 +33,16 @@ class Player:
         # return card
 
     def flipTopCard(self):
-        card = self.deck.peek()
+        card = self.drawDeck.peek()
         if card == None:
             self.shuffle()
-            card = self.deck.peek()
+            card = self.drawDeck.peek()
         return card
 
     def gain(self, card):
         self.discards.add(card)
 
-    def buy(self, card):
+    def buy(self, card: Card):
         cost = card.getCost()
         if cost > self.power:
             raise Exception("Not enough power to buy this card")
@@ -50,12 +50,12 @@ class Player:
         self.discards.add(card)
 
 
-    def play(self, card):
-        pass
+    def play(self, card: Card):
+        draw_card, power, attack = card.play()
 
     def shuffle(self):
         self.discards.shuffle()
-        self.deck = self.discards
+        self.drawDeck = self.discards
         self.discards.clear()
 
 

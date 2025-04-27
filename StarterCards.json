@@ -1,0 +1,40 @@
+{
+    "cards": [
+        {
+            "name": "Punch",
+            "description": "+1 Power",
+            "type": "Starter",
+            "cost": 0,
+            "power": 1,
+            "victory_points": 0,
+            "quantity": 36
+        },
+        {
+            "name": "Vulnerability",
+            "description": "",
+            "type": "Starter",
+            "cost": 0,
+            "power": 0,
+            "victory_points": 0,
+            "quantity": 16
+        },
+        {
+            "name": "Weakness",
+            "description": "Weakness cards reduce your score at the end of the game.",
+            "type": "Weakness",
+            "cost": 0,
+            "power": 0,
+            "victory_points": -1,
+            "quantity": 20
+        },
+        {
+            "name": "Kick",
+            "description": "+2 Power",
+            "type": "SuperPower",
+            "cost": 3,
+            "victory_points": 1,
+            "power": 2,
+            "quantity": 16
+        }
+    ]
+}
