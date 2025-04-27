@@ -1,0 +1,52 @@
+{
+    "cards": [
+        {
+            "name": "Central City",
+            "description": "When you play this card, leave it in front of you for the rest of the game.\nOngoing: +1 Power for each non-Kick Super Power you play.",
+            "type": "Location",
+            "cost": 5,
+            "variable_power": true,
+            "victory_points": 1
+        },
+        {
+            "name": "Belle Reve",
+            "description": "When you play this card, leave it in front of you for the rest of the game.\nOngoing: +1 Power for each Villain you play.",
+            "type": "Location",
+            "cost": 5,
+            "variable_power": true,
+            "victory_points": 1
+        },
+        {
+            "name": "S.T.A.R. Labs",
+            "description": "When you play this card, leave it in front of you for the rest of the game.\nOngoing: +1 Power for each Equipment you play.",
+            "type": "Location",
+            "cost": 5,
+            "variable_power": true,
+            "victory_points": 1
+        },
+        {
+            "name": "Blackgate Prison",
+            "description": "When you play this card, leave it in front of you for the rest of the game.\nOngoing: Once during each of your turns, reveal the top card of your deck. If it's a Vulnerability or Weakness, destroy it and gain 1 VP.",
+            "type": "Location",
+            "cost": 4,
+            "variable_power": true,
+            "victory_points": 1
+        },
+        {
+            "name": "Earth-3",
+            "description": "When you play this card, leave it in front of you for the rest of the game.\nOngoing: Once during each of your turns, reveal the top card of your deck. If it's a Punch, destroy it and gain 1 VP.",
+            "type": "Location",
+            "cost": 6,
+            "variable_power": true,
+            "victory_points": 1
+        },
+        {
+            "name": "Happy Harbor",
+            "description": "When you play this card, leave it in front of you for the rest of the game.\nOngoing: +1 Power for each Hero you play.",
+            "type": "Location",
+            "cost": 5,
+            "variable_power": true,
+            "victory_points": 1
+        }
+    ]
+}

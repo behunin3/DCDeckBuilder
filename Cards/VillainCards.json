@@ -1,0 +1,139 @@
+{
+    "cards": [
+        {
+            "name": "Johnny Quick",
+            "description": "Draw a card.",
+            "type": "Villain",
+            "cost": 2,
+            "power": 0,
+            "victory_points": 1,
+            "draw_cards": 1,
+            "quantity": 2
+        },
+        {
+            "name": "Giganta",
+            "description": "+4 Power if there are no cards with cost 3 or less in your discard pile. Otherwise, +2 Power.",
+            "type": "Villain",
+            "cost": 4,
+            "power": 2,
+            "victory_points": 1,
+            "quantity": 2
+        },
+        {
+            "name": "Emperor Penguin",
+            "description": "When you destroy this card in any zone, gain 2 VPs.",
+            "type": "Villain",
+            "cost": 1,
+            "power": 0,
+            "victory_points": 0,
+            "variable_victory_points": 2,
+            "quantity": 2
+        },
+        {
+            "name": "Atomica",
+            "description": "You may destroy a non-Villain card in your hand or discard pile. If its cost is 1 or greater, gain 1 VP.",
+            "type": "Villain",
+            "cost": 3,
+            "power": 0,
+            "victory_points": 1,
+            "variable_victory_points": 1,
+            "destroy_cards": 1,
+            "quantity": 2
+        },
+        {
+            "name": "The Blight",
+            "description": "You may destroy a card in your hand or discard pile. If it's a Super Power, +Power equal to its cost.",
+            "type": "Villain",
+            "cost": 4,
+            "power": 2,
+            "variable_power": true,
+            "victory_points": 1,
+            "destroy_cards": 1,
+            "quantity": 2
+        },
+        {
+            "name": "Despero",
+            "description": "Draw two cards and choose a foe.",
+            "type": "Villain",
+            "cost": 6,
+            "power": 0,
+            "victory_points": 2,
+            "attack": "",
+            "draw_cards": 2
+        },
+        {
+            "name": "Man-Bat",
+            "description": "+2 Power",
+            "type": "Villain",
+            "cost": 3,
+            "power": 2,
+            "victory_points": 1,
+            "defense": "",
+            "quantity": 2
+        },
+        {
+            "name": "Grid",
+            "description": "+1 Power.\nYou may put a Villain or Equipment with cost 5 or less from you discard pile on top of your deck.",
+            "type": "Villain",
+            "cost": 2,
+            "power": 1,
+            "victory_points": 1,
+            "quantity": 2
+        },
+        {
+            "name": "Power Ring",
+            "description": "You may destroy a Hero in the Line-Up. +1 Power for each different Hero in the destroyed pile.",
+            "type": "Villain",
+            "cost": 6,
+            "variable_power": true,
+            "victory_points": 2,
+            "destroy_cards": 1
+        },
+        {
+            "name": "Superwoman",
+            "description": "You may destroy a Villain in the Line-Up. +1 Power for each different Villain in the destroyed pile.",
+            "type": "Villain",
+            "cost": 7,
+            "variable_power": true,
+            "victory_points": 3,
+            "destroy_cards": 1
+        },
+        {
+            "name": "Owlman",
+            "description": "You may destroy an Equipment in the Line-Up. +1 Power for each different Equipment in the destroyed pile.",
+            "type": "Villain",
+            "cost": 6,
+            "variable_power": true,
+            "victory_points": 2,
+            "destroy_cards": 1
+        },
+        {
+            "name": "Ultraman",
+            "description": "You may destroy a card in the Line-Up. +1 Power for each different Super Power in the destroyed pile.",
+            "type": "Villain",
+            "cost": 8,
+            "variable_power": true,
+            "victory_points": 3,
+            "destroy_cards": 1
+        },
+        {
+            "name": "Deathstrom",
+            "description": "You may destroy a card in your hand. At end of game, this card is worth 1 fewer VP for each card in excess of 20 in your deck. (Minimum 0.)",
+            "type": "Villain",
+            "cost": 4,
+            "power": 0,
+            "variable_victory_points": true
+        },
+        {
+            "name": "Royal Flush Gang",
+            "description": "Draw two cards, and then discard two cards. Gain 1 VP for each other Royal Flush Gang you play or have played this turn.",
+            "type": "Villain",
+            "cost": 5,
+            "power": 0,
+            "variable_victory_points": true,
+            "draw_cards": 2,
+            "discard_cards": 2,
+            "quantity": 5
+        }
+    ]
+}
